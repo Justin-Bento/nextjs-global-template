@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { frontEndTooling } from "@/data/content.json"
 
 export default function page() {
   return (
@@ -15,10 +16,10 @@ export default function page() {
           <Card className="col-span-12 p-6">
             <h1 className="text-xl/7 font-bold">Front-End Tooling</h1>
           </Card>
-          {Array.from({ length: 8 }, (_, index) => (
+          {frontEndTooling.map((frontTools, index) => (
             <Card key={index} className="col-span-3 p-5 rounded-[0.45rem]">
-              <p className="text-md/7 font-bold capitalize">Some random content.</p>
-              <p className="text-sm/5 tracking-wide text-gray-800 line-clamp-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim cumque veniam magni placeat voluptatem dolorem, similique fugit saepe. Vitae, provident? Soluta blanditiis voluptatibus maiores veniam! Ratione autem sunt laboriosam.</p>
+              <p className="text-md/7 font-bold capitalize">{frontTools.title}</p>
+              <p className="text-sm/5 tracking-wide text-gray-800 line-clamp-2">{frontTools.description}</p>
             </Card>
           ))}
         </section>
