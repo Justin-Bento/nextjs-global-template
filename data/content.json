@@ -1,5 +1,5 @@
 {
-    "frontEndTooling": [
+    "frontend": [
         {
             "title": "Picular",
             "description": "Picular is a rocket fast primary color generator using Google’s image search."
@@ -33,13 +33,37 @@
             "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
         }
     ],
-    "backEndTooling": [
+    "backend": [
         {
-            "title": "Picular",
+            "title": "FormSpree",
+            "description": "Formspree is a form backend, API, and email service for HTML & JavaScript forms."
+        },
+        {
+            "title": "UploadThing",
+            "description": "An easier way to upload files.."
+        },
+        {
+            "title": "Sanity",
+            "description": "Sanity is the modern CMS that transforms content into a competitive advantage. Customize, collaborate, and scale your digital experiences seamlessly."
+        },
+        {
+            "title": "Google Analytics",
             "description": "Picular is a rocket fast primary color generator using Google’s image search."
         },
         {
-            "title": "Picular",
+            "title": "Markdown",
+            "description": "Is a simple and easy-to-use markup language you can use to format virtually any document."
+        },
+        {
+            "title": "Wordpress",
+            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+        },
+        {
+            "title": "Supabase",
+            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+        },
+        {
+            "title": "Vercel",
             "description": "Picular is a rocket fast primary color generator using Google’s image search."
         }
     ]
