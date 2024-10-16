@@ -32,5 +32,15 @@
             "title": "",
             "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
         }
+    ],
+    "backEndTooling": [
+        {
+            "title": "Picular",
+            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+        },
+        {
+            "title": "Picular",
+            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+        }
     ]
 }
