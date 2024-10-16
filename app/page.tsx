@@ -4,13 +4,13 @@ export default function page() {
   return (
     <>
       <header className="shadow">
-        <div className="overflow-hidden">
-          <div className="px-4 py-5 sm:p-6 flex items-center justify-start">
+        <div className="overflow-hidden container mx-auto">
+          <div className="px-4 py-5 sm:p-6 md:px-0 flex items-center justify-start">
             <p className="text-base/7 font-medium">Header Content</p>
           </div>
         </div>
       </header>
-      <main className="min-h-dvh container mx-auto mt-10 space-y-10">
+      <main className="min-h-dvh flex flex-col items-center justify-start container mx-auto mt-10 gap-10">
         <section className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <Card className="col-span-12 p-6">
             <h1 className="text-xl/7 font-bold">Main Content</h1>
@@ -34,9 +34,9 @@ export default function page() {
           ))}
         </section>
       </main>
-      <footer className="">
-        <div className="overflow-hidden">
-          <div className="px-4 py-5 sm:p-6 flex items-center justify-start">
+      <footer className="bg-gray-100 border-t">
+        <div className="overflow-hidden container mx-auto">
+          <div className="px-4 py-5 sm:p-6 md:px-0 flex items-center justify-start">
             <p className="text-base/7 font-medium">Footer Content</p>
           </div>
         </div>
