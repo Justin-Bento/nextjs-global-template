@@ -1,0 +1,36 @@
+{
+    "styling": [
+        {
+            "title": "Picular",
+            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+        },
+        {
+            "title": "Realtime Colours",
+            "description": "Get your personalized color palette in 4 steps."
+        },
+        {
+            "title": "Tailwind CSS",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+        },
+        {
+            "title": "Shadcn/ui",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+        },
+        {
+            "title": "Breeze Icons",
+            "description": "Breeze-icons is a freedesktop.org compatible icon theme. It's developed by the KDE Community."
+        },
+        {
+            "title": "",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+        },
+        {
+            "title": "",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+        },
+        {
+            "title": "",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+        }
+    ]
+}
