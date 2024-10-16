@@ -1,3 +1,4 @@
+import { Card } from "@/components/ui/card";
 import React from "react";
 
 export default function page() {
@@ -11,9 +12,11 @@ export default function page() {
         </div>
       </header>
       <main className="min-h-dvh">
-        <div className="px-4 py-5 sm:p-6 flex items-center justify-start">
-          <h1 className="text-base/7 font-medium">Main Content</h1>
-        </div>
+        <section className="">
+          <Card>
+            <h1 className="text-base/7 font-medium">Main Content</h1>
+          </Card>
+        </section>
       </main>
       <footer className="">
         <div className="overflow-hidden">
