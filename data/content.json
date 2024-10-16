@@ -2,69 +2,85 @@
     "frontend": [
         {
             "title": "Picular",
-            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+            "description": "Picular is a rocket fast primary color generator using Google’s image search.",
+            "url": "https://picular.co/"
         },
         {
             "title": "Realtime Colours",
-            "description": "Get your personalized color palette in 4 steps."
+            "description": "Get your personalized color palette in 4 steps, and Visualize Your Colors & Fonts On a real website.",
+            "url": "https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter"
         },
         {
             "title": "Tailwind CSS",
-            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions.",
+            "url": "https://tailwindcss.com/"
         },
         {
             "title": "Shadcn/ui",
-            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions.",
+            "url": "https://ui.shadcn.com/"
         },
         {
             "title": "Breeze Icons",
-            "description": "Breeze-icons is a freedesktop.org compatible icon theme. It's developed by the KDE Community."
+            "description": "Breeze-icons is a freedesktop.org compatible icon theme. It's developed by the KDE Community.",
+            "url":"https://develop.kde.org/frameworks/breeze-icons/"
         },
         {
-            "title": "",
-            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+            "title": "Google Fonts",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions.",
+            "url": "https://fonts.google.com/"
         },
         {
-            "title": "",
-            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+            "title": "Life of Pix",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions.",
+            "url": "https://www.lifeofpix.com/"
         },
         {
-            "title": "",
-            "description": "We use Tailwind CSS for it's consistent styling and naming conventions."
+            "title": "Unsplash",
+            "description": "We use Tailwind CSS for it's consistent styling and naming conventions.",
+            "url":"https://unsplash.com/"
         }
     ],
     "backend": [
         {
             "title": "FormSpree",
-            "description": "Formspree is a form backend, API, and email service for HTML & JavaScript forms."
+            "description": "Formspree is a form backend, API, and email service for HTML & JavaScript forms.",
+            "url": "https://formspree.io/"
         },
         {
             "title": "UploadThing",
-            "description": "An easier way to upload files.."
+            "description": "UploadThing is the easiest way to add file uploads to your full stack TypeScript application.",
+            "url": "https://uploadthing.com/"
         },
         {
             "title": "Sanity",
-            "description": "Sanity is the modern CMS that transforms content into a competitive advantage. Customize, collaborate, and scale your digital experiences seamlessly."
+            "description": "Sanity is the modern CMS that transforms content into a competitive advantage. Customize, collaborate, and scale your digital experiences seamlessly.",
+            "url": "https://www.sanity.io/"
         },
         {
             "title": "Google Analytics",
-            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+            "description": "Picular is a rocket fast primary color generator using Google’s image search.",
+            "url": "https://analytics.google.com/analytics/web/"
         },
         {
             "title": "Markdown",
-            "description": "Is a simple and easy-to-use markup language you can use to format virtually any document."
+            "description": "Is a simple and easy-to-use markup language you can use to format virtually any document.",
+            "url": "https://www.markdownguide.org/"
         },
         {
             "title": "Wordpress",
-            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+            "description": "Picular is a rocket fast primary color generator using Google’s image search.",
+            "url": "https://en-ca.wordpress.org/"
         },
         {
             "title": "Supabase",
-            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+            "description": "Picular is a rocket fast primary color generator using Google’s image search.",
+            "url": "https://supabase.com/"
         },
         {
             "title": "Vercel",
-            "description": "Picular is a rocket fast primary color generator using Google’s image search."
+            "description": "Picular is a rocket fast primary color generator using Google’s image search.",
+            "url": "https://vercel.com/"
         }
     ]
 }
