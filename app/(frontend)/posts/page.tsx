@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { client } from "@/sanity/lib/client";
-import { POST_QUERY } from "@/lib/quires";
+import { POST_QUERY } from "@/sanity/lib/quires";
 
 const options = { next: { revalidate: 60 } };
 
