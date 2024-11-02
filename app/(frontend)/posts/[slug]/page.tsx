@@ -14,9 +14,11 @@ export default async function Page({ params }: PostIndexProps) {
   }
   return (
     <main className="container mx-auto grid grid-cols-1 gap-6 p-12">
-      <h1 className="text-4xl font-bold text-balance">{post?.title}</h1>
+      <h1 className="text-4xl font-bold text-balance dark:text-white">{post?.title}</h1>
       <hr />
-      <Link href="/posts">&larr; Return to index</Link>
+      <Link href="/posts" className="dark:text-white">
+        &larr; Return to index
+      </Link>
     </main>
   );
 }
