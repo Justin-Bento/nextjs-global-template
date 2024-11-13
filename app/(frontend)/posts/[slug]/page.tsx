@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import { PortableText } from "next-sanity";
+import { components } from "@/sanity/portableTextComponents";
 
 type PostIndexProps = { params: { slug: string } };
 
@@ -31,7 +32,7 @@ export default async function Page({ params }: PostIndexProps) {
       </h1>
       {post?.body ? (
         <article className="prose prose-neutral dark:prose-invert">
-          <PortableText value={post?.body} />
+          <PortableText value={post?.body} components={components} />
         </article>
       ) : null}
       <hr />
