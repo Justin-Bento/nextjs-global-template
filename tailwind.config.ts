@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import animate from "tailwindcss-animate";
+import typography from "@tailwindcss/typography";
 import colors from "tailwindcss/colors";
 
 module.exports = {
@@ -28,6 +29,7 @@ module.exports = {
   },
   plugins: [
     animate,
+    typography,
     // ...
   ],
 };
