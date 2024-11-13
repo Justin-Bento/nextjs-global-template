@@ -36,7 +36,10 @@ export default async function Page({ params }: PostIndexProps) {
         </article>
       ) : null}
       <hr />
-      <Link href="/posts" className="dark:text-white">
+      <Link
+        href="/posts"
+        className="dark:text-white dark:hover:opacity-70 hover:underline"
+      >
         &larr; Return to index
       </Link>
     </main>

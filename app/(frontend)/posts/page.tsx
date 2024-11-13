@@ -18,14 +18,20 @@ export default async function Page() {
       <ul className="grid grid-cols-1 divide-y divide-blue-100">
         {posts.map((post: PostArticle) => (
           <li key={post._id}>
-            <Link className="block p-4 hover:text-blue-500 dark:text-white" href={`/posts/${post?.slug?.current}`}>
+            <Link
+              className="block p-4 hover:text-blue-500 dark:text-white"
+              href={`/posts/${post?.slug?.current}`}
+            >
               {post?.title}
             </Link>
           </li>
         ))}
       </ul>
       <hr />
-      <Link href="/" className="dark:text-white">
+      <Link
+        href="/"
+        className="dark:text-white dark:hover:opacity-70 hover:underline"
+      >
         &larr; Return home
       </Link>
     </main>
